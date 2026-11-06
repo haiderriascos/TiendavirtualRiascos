@@ -50,7 +50,7 @@
 
         .boton {
             display: inline-block;
-            background-color: #007bff;
+            background-color: #4ae32c;
             color: white;
             padding: 12px 25px;
             text-decoration: none;
@@ -69,8 +69,8 @@
 </head>
 <body>
     <header>
-        <h1>tienda virtual</h1>
-        <p>tienda en linea para que compres todos tus productos</p>
+        <h1>Tienda virtual</h1>
+        <p>Tienda en linea para que compres todos tus productos</p>
     </header>
     <nav>  
         <a href="#">Inicio</a>
@@ -81,10 +81,10 @@
     <main>
         <section class="bienvenida">
             <h2>Bienvenido a nuestra tienda virtual</h2>
-            <p> encuentra los mejores productos
+            <p> Encuentra los mejores productos
                 en un solo lugar
             </p>
-            <a href="/productos">Ver Productos</a>
+            <a href="/productos"class="boton">Ver Productos</a>
 
 
         </section>

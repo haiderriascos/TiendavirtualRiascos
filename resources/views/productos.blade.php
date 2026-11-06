@@ -6,8 +6,8 @@
     <title>productos</title>
 </head>
 <body>
-    <h1>nuestros productos</h1>
-    <p>aqui vas a poder todos los productos</p>
+    <h1>Nuestros productos</h1>
+    <p>Aqui vas a poder encontar todos los productos</p>
     
     <a href="/">Volver al inicio</a>
     
