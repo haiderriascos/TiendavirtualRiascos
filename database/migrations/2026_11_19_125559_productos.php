@@ -18,8 +18,7 @@ return new class extends Migration
             $table->decimal('precio', 10, 2);
             $table->integer('stock') ->default(0);
             $table->string('imagen')->nullable();
-            $table->unsignedBigInteger('categoria_id');
-            $table->foreign('categoria_id')->constrained('categorias');
+            $table->foreignId('categoria_id')->constrained('categorias');
             $table->timestamps();
         });
     }
@@ -27,8 +26,9 @@ return new class extends Migration
     /**
      * Reverse the migrations.
      */
-    public function down(): void
-    {
+    public function categoria()
+    { return $this->belongsTo(categoria::class, 'categoria_id');
+    
         //
     }
 };
